@@ -1,4 +1,12 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -39,4 +47,4 @@
 
 button {
   font-size: calc(10px + 2vmin);
-}
+} */
