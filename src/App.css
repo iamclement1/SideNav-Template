@@ -1,13 +1,58 @@
+
+:root {
+  --primary: #6C5FFC;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.brand__logo img {
-  width: 120px;
+/* button */
+.custom-btn {
+  background: #6C5FFC;
+  color: #fff;
+  border: 2px solid red;
+  border-radius: 3px;
+  padding: 5px 10px;
 }
 
+/* navbar */
+.fixed-top.navbar-white .navbar-nav .nav-link {
+  padding: 20px 20px;
+}
+
+.link-underline {
+  border-bottom-width: 0;
+  padding-bottom: 2px;
+  background-image: linear-gradient(transparent, transparent),
+    linear-gradient(#fff, #fff);
+  background-size: 0 7px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.3s ease;
+}
+
+.link-underline-warning {
+  padding-top: 2px;
+  background-image: linear-gradient(transparent, transparent),
+    linear-gradient(rgb(34, 209, 212), rgb(45, 216, 210));
+}
+
+.link-underline:hover {
+  background-size: 100% 3px;
+  background-position: 0 100%;
+  transition: background-size 0.3s ease;
+}
+
+
+
+.brand__logo img {
+  width: 150px;
+}
+.content {
+  margin-top: 100px;
+}
 
 @media (max-width: 992px) {
     
@@ -30,7 +75,7 @@
         flex-direction: column;
         height: auto;
         width: 50%;
-        padding: 40px;
+        padding: 15px;
         transition: left 0.35s ease;
         box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     }
