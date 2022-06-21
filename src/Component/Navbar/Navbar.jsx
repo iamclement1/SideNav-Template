@@ -15,7 +15,7 @@ export default function Navbar() {
                 >
                     {/* Product Brand */}
                     <Link to="/" className="navbar-brand p-3 brand__logo">
-                        <img src={BrandLogo} alt="brand__logo" />
+                        The Bin
                     </Link>
 
                     {/* Toogler */}
